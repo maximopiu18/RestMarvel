@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/rojo"
+    >
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="none"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_heroe_descripcion"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/icon_marvel"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_name"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="SPIDERMAN"
+            android:textSize="24dp"
+            android:textStyle="bold|italic"
+            android:layout_margin="12dp"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_real_name"
+            android:gravity="center|left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="Real Name: "
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            />
+        <TextView
+            android:id="@+id/tv_height"
+            android:gravity="center|left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="Height: "
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            />
+        <TextView
+            android:id="@+id/tv_power"
+            android:gravity="center|left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="Power: "
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            />
+        <TextView
+            android:id="@+id/tv_abilities"
+            android:gravity="center|left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="Abilities"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            />
+        <TextView
+            android:id="@+id/tv_groups"
+            android:gravity="center|left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="Groups: "
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
